@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+        #char {
+            border: 3px solid black;
+        }
+        .things {
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            font-size: 50px;
+        }
+        #tab-button {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text" id="char" class="things">
+            <button onclick="getStrokeOrder()" class="things" id="tab-button">Get</button>
+        </div>
+        <div>
+            <input type="checkbox" id="kanji-only" name="kanji-only">
+            <label for="kanji-only">Kanji Only?</label>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
