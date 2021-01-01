@@ -18,8 +18,7 @@ getStrokeOrder = () => {
         }
         
         const encodedChar = encodeURI(chars[i])
-        window.open(`https://en.wiktionary.org/wiki/${encodedChar}#/media/File:${encodedChar}-order.gif`, "_blank");
-        window.open(`https://jisho.org/search/${encodedChar} %23kanji`, "_blank")
+        window.open(`https://jisho.org/search/${encodedChar} %23kanji`, "_blank");
         pageCount++;
     }
     document.querySelector("#char").value = '';
